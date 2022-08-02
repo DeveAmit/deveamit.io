@@ -11,6 +11,8 @@ window.addEventListener("scroll",() => {
         document.querySelector(".style-switcher").classList.remove("open");
     }
 })
+
+
 // theme color ***************************************
 const alternateStyles = document.querySelectorAll(".alternate-style");
 function setActiveStyle(color)
@@ -26,6 +28,8 @@ function setActiveStyle(color)
         }
     })
 }
+
+
 // theme light and dark color ***************************************
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () =>{
