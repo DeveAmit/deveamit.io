@@ -11,7 +11,7 @@ window.addEventListener("scroll",() => {
         document.querySelector(".style-switcher").classList.remove("open");
     }  
 })      
-
+ 
 
 // theme color ***************************************
 const alternateStyles = document.querySelectorAll(".alternate-style");
